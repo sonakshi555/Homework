@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>odin | SignUp Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="image">
+            <img src="/signupIMG.avif" alt="treeImage">
+            <div class="odin symbol">
+                <img src="/odin-lined.png" alt="">
+                <span>ODIN</span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatibus totam quibusdam illo
+                    repudiandae beatae vel dolore natus nemo delectus.</p>
+            </div>
+            <div class="form">
+                <h2>Let's do this</h2>
+                <form action="index.html" method="post">
+                    <p><label for="first_name">First Name</label></p>
+                    <p><input type="text" id="first_name" name="first_name" required></p>
+                    <p><label for="last_name">Last Name</label></p>
+                    <p><input type="text" id="last_name" name="last_name" required></p>
+                    <p><label for="email">Email</label></p>
+                    <p><input type="email" id="email" name="email" required></p>
+                    <p><label for="Phone">Phone Number</label></p>
+                    <p><input type="tel" id="Phone" name="Phone" required></p>
+                    <p><label for="password">Password</label></p>
+                    <p><input type="password" id="password" name="password" required></p>
+                    <p><label for="confirmPassword">Confirm Password</label></p>
+                    <p><input type="password" id="confirmPassword" name="confirmPassword" required></p>
+                </form>
+            </div>
+            <div class="button">
+                <button type="submit">Create Account</button>
+                <p><a href="#">Already have an account? Sign in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
