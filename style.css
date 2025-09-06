@@ -1,12 +1,13 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.container{
-    display: flex; 
+
+.container {
+    display: flex;
 }
 
-.image{
+.image {
     position: relative;
     display: flex;
     padding: 0;
@@ -16,22 +17,64 @@ body{
 }
 
 
-.odin_symbol{
+.odin_symbol {
     position: absolute;
     opacity: 1;
-    top: 8rem; 
+    top: 8rem;
     display: flex;
     align-items: center;
     justify-content: center;
     color: azure;
-    background: linear-gradient(180deg ,  black, transparent);
+    background: linear-gradient(180deg, black, transparent);
     opacity: 1;
     font-size: 4rem;
     width: 23rem
 }
 
-.odin_logo{
+.odin_logo {
     position: relative;
     width: auto;
     height: 6rem;
+}
+
+.content {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    right: 15rem;
+}
+
+.form {
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.9rem;
+    width: 40rem;
+    height: 20rem;
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    display: block;
+    width: 15rem;
+    height: 2rem;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+
+label{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
 }
